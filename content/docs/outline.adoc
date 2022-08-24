@@ -1,0 +1,94 @@
+= Outline
+Vinay Sajip
+2022-08-24
+:jbake-type: page
+:jbake-tags: documentation
+:jbake-status: published
+:idprefix:
+:numbered:
+:sectanchors:
+:icons: font
+:toc:
+:core-version: 0.1.0-SNAPSHOT
+
+# Getting Started with CongoCC
+## Overview
+### What is CongoCC?
+### Why might you need CongoCC?
+### Why is using CongoCC better than a hand-written parser?
+### How does CongoCC compare to other similar tools?
+## Setting up
+### Prerequisites
+### Download and installation
+#### Linux and macOS
+#### Windows
+### Verifying the installation
+## Basic usage
+### Grammar files
+### A "Hello, world!" example
+#### Create a grammar file for the Hello grammar
+#### Run CongoCC to create a Java parser for the Hello grammar
+#### Create an example input file
+#### Run the generated parser on the input file
+#### Understanding the parser output that's generated
+# Usage
+## Command line options
+## How CongoCC processes a grammar
+## How a grammar file is structured
+### Grammar elements
+#### Comments
+#### Reserved words
+#### Punctuation
+#### Literals
+#### Regular expressions
+### Grammar options
+### Top-level directives
+#### The preprocessor
+#### INCLUDE
+#### INJECT
+### Lexer rules
+### Lexical states
+### Context-sensitive tokenization
+#### SKIP
+#### MORE
+### Parser rules
+#### Lookahead and parsing phases
+#### Choice points
+#### SCAN
+##### Contextual predicates
+#### => and =>||
+#### Semantic lookahead
+#### LOOKAHEAD (legacy)
+#### ASSERT
+#### FAIL
+#### ACTIVATE_TOKENS and DEACTIVATE_TOKENS
+#### ATTEMPT and RECOVER
+#### Semantic actions (code blocks)
+#### Fault-tolerant parsing
+## CongoCC output
+### How CongoCC generates the lexer and parser
+### Special tokens in the grammar - LEXER_CLASS, PARSER_CLASS etc.
+### Fine-tuning AST node generation in the grammar
+### Fine-tuning tree building in the grammar
+# Example grammars
+## JSON
+## Java
+## Python
+## C#
+# High-level API
+## Java
+### Node
+### BaseNode
+### Token
+### Lexer
+### Parser
+### ParseException
+# Support for parser generation in languages other than Java
+## Current status
+## Approach - advantages and limitations
+## Performance
+## Python
+### High-level API
+## C#
+### High-level API
+## Future support for additional languages
