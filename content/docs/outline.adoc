@@ -92,3 +92,13 @@ Vinay Sajip
 ## C#
 ### High-level API
 ## Future support for additional languages
+# Contributing to CongoCC
+## Source repository
+## Development setup
+## Workflow
+## Code style
+## Tests
+## Building CongoCC
+## Bootstrapping the CongoCC jar
+## Reporting issues
+## Discussion forum
