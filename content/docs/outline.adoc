@@ -102,3 +102,5 @@ Vinay Sajip
 ## Bootstrapping the CongoCC jar
 ## Reporting issues
 ## Discussion forum
+# Appendix - the NFA mechanism for tokenizing
+# Appendix - first and follow sets, lookaheae methods
